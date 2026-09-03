@@ -1,0 +1,48 @@
+Selector universal *{
+    regla
+}se aplica a todo los elementos de la pagina
+
+selector con etiqueta
+p{
+    regla
+}
+selector de clase
+.NombreClase{
+    regla
+}
+selector id No repetir el valor id osea solo debe habr 1 
+id por pagina no deben haber iguales
+#id{
+    regla
+}
+selector descendiente 
+Un elemento es descendiente de otro cuando se encuentra entre 
+las etiquetas de apertura y de cierre del elemento padre. Su 
+sintaxis es: selector1 selector2… selectorN. Siendo el
+selector N el elemento sobre el que se aplica el estilo.
+fieldset div p{
+    regla
+}
+usar !important sobre escribe los estilos osea tiene mayor importancia
+sobre los demas estilos
+
+las medias px solo utilizarlas para bordes, sombras, para ser precisos
+la medida em depende dela fuente padre si el prade es 16px== 1em es igual al padre
+siempre 1 em depende del padre
+rem depende el tamaño de la pagina por defecto es 16px es lo mismo que em
+
+flex-start: Alinea elementos a la parte superior del contenedor.
+flex-end: Alinea elementos a la parte inferior del contenedor.
+center: Alinea elementos en el centro (verticalmente hablando) del contenedor.
+baseline: Muestra elementos en la línea base del contenedor
+stretch: Elementos se estiran para ajustarse al contenedor.
+
+justify-content: space-around;
+align-items: flex-end
+
+row: Elementos son colocados en la misma dirección del texto.
+row-reverse: Elementos son colocados en la dirección opuesta al texto.
+column: Elementos se colocan de arriba hacia abajo.
+column-reverse: Elementos se colocan de abajo hacia arriba.
+
+flex-direction

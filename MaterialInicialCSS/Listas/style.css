@@ -1,0 +1,14 @@
+.a {list-style-type: circle;}
+.b {list-style-type: square;}
+.c {list-style-type: upper-roman;}
+.d {list-style-type: lower-alpha;}
+
+ul.a { list-style-image: url('https://i.racjonalista.pl/img/em/lol.gif'); }
+ul.b { list-style-image: url('https://media.giphy.com/media/tBik70kZOJKOk/giphy.gif'); }
+
+ul.a { list-style-position:outside; }
+ul.b { list-style-position:inside; }
+
+ol.c { list-style: square inside; }
+ol.d { list-style: circle inside; }
+

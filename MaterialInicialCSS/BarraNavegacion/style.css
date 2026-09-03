@@ -1,0 +1,53 @@
+*{
+    margin: 0px;
+    padding: 0 px;
+    font-family: "Roboto", Arial, Tahoma, sans-serif;
+}
+/* Header and Nav */
+header{
+    position: fixed;
+    width: 100%;
+    height: 70px;  
+    background-color: #38b2f0;
+}
+nav{
+    max-width: 1024px;
+    margin: 0 auto;
+    
+}
+header img{
+    padding: 18px 10px;
+    float: left;
+}
+#logo{
+    color: #fff;
+    font-size: 1.5em;
+    text-decoration: none;
+    line-height: 70px;
+    padding: 15px 10px;
+}
+nav ul{
+    float: right;
+    list-style: none;
+    text-align: center;
+    vertical-align: top;
+}
+nav li{
+    list-style-type: none;
+    padding: 10px;
+    display:inline;
+    
+    
+}
+nav li a{
+    
+    font-size: 1em;
+    text-decoration: none;
+    line-height: 70px;
+    padding: 15px 10px;
+    color: #fff;
+    transition: color 0.3s ease;
+}
+nav li a:hover{
+    color: #000;
+}
