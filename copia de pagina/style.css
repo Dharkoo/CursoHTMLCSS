@@ -75,11 +75,11 @@ body {
 }
 
 /* Imágen de fondo de ejemplo para cada panel (Reemplazar por tus imágenes) */
-.panel-1 .panel-bg { background-image: url('duskbloods.jpg'); }
-.panel-2 .panel-bg { background-image: url('4.jpg'); }
-.panel-3 .panel-bg { background-image: url('armorcore.jpg'); }
-.panel-4 .panel-bg { background-image: url('nightreigm.jpg'); }
-.panel-5 .panel-bg { background-image: url('sekiro.jpg'); }
+.panel-1 .panel-bg { background-image: url('img/duskbloods.jpg'); }
+.panel-2 .panel-bg { background-image: url('img/eldenring.jpg'); }
+.panel-3 .panel-bg { background-image: url('img/armorcore.jpg'); }
+.panel-4 .panel-bg { background-image: url('img/nightreigm.jpg'); }
+.panel-5 .panel-bg { background-image: url('img/sekiro.jpg'); }
 
 .panel-content img{ 
   width: 50%;
@@ -216,6 +216,7 @@ body {
   transition: filter 0.3s;
 }
 .social img:hover {
+  color: #fff;
   filter: grayscale(0%) brightness(1);
 }
 
