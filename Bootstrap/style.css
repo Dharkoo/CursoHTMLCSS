@@ -5,3 +5,10 @@
 nav button{
     margin-left: 10px;
 }
+.cards{
+    display: block; 
+    flex-flow:  wrap;      /* Activa el diseño en fila (horizontal) */
+    border: 1px solid #ccc;
+    padding: 16px;
+    border-radius: 8px;
+}

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    valor 1:<input type="text" id="v1">
+    valor 2:<input type="text" id="v2">
+    resultado:<input type="text" id="r" disabled>
+    comparar:<input type="text" id="v3" >
+    <button  onclick=sumar()>SUMAR</button>
+
+    <button id="btnsumar" onclick=sumar()>collapse</button>
+    <button onclick=comparar()>comparar</button>
+    <audio id="aura" src="auraa.mp3"></audio>
+    <script>
+        //metodos para solicitar inf al usuario
+        function sumar() {
+            let a = parseInt(document.getElementById('v1').value)
+            let b = parseInt(document.getElementById('v2').value)
+            let suma = a + b
+
+            document.getElementById("r").value = suma
+        }
+        function comparar() {
+            let a = parseInt(document.getElementById('v1').value)
+            let b = parseInt(document.getElementById('v2').value)
+
+
+            if (a > b) {
+                document.getElementById('v3').style.backgroundColor = 'green'
+                document.getElementById('v3').style.borderColor = 'red'
+                document.getElementById('v3').style.borderRadius = '30px'
+                document.getElementById('btnsumar').style.display = 'none'
+                document.getElementById('v3').style.color = 'white'
+                document.getElementById('v3').value = 'a es mayor que b'
+            } else {
+                document.getElementById('v3').style.backgroundColor = 'red'
+                document.getElementById('v3').style.borderColor = 'black'
+                document.getElementById('v3').style.borderRadius = '40px'
+                document.getElementById('btnsumar').style.display = 'none'
+                document.getElementById('v3').style.color = 'black'
+                document.getElementById('v3').value = 'b es mayor que a'
+                document.getElementById('aura').play()
+
+            }
+        }
+
+
+
+
+
+    </script>
+
+</body>
+
+</html>
