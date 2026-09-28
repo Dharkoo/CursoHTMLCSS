@@ -1,0 +1,7 @@
+tipos de datos numericos
+
+infinity infinito positivo
+-infinity infinitivo negativo
+
+let es para definir variable
+
